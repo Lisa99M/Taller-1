@@ -1,6 +1,9 @@
 # Segundo punto #
 2. Realice un programa que lea tres números reales y determine cuál es el mayor.
 
+### Diagrama de flujo ###
+[![](https://mermaid.ink/img/pako:eNqNkk1OwzAQRq8y8qoV6aKwi6AImgYqARvYQNLFKJ62Fokd_AOq0l6MLRfDjQmFCqRGiuRJ3ud5sqdhheLEYjYv1VuxRG3hIckl-OeiN5WiEKoPg8EILjPpKtJqGIMmLCFUx7-qk1DN2sA4QyMWEjW8Yqk04Bc0jLosrLrcDELLcZtMmonp4KOOPe3Y801gky27fiSzhkl2g2BchcAJSmWA-7fWYsv7nT7ew4IMVCS9yosjoBIs6cL_CLrTXipk_-fWd2oN6V8qo32VdKdydbgKrg5QSb9VrrN9j7Pd8bWxg1uLhfN39n9rFjHPVii4H4xmK5Izu6SKchb7JUf9nLNcbjyHzqr7lSxYbLWjiLmao6VE4EJjxeI5lsZ_JS6s0rdh0tqBi1iN8kmpjtl8AoEp1-g?type=png)](https://mermaid.live/edit#pako:eNqNkk1OwzAQRq8y8qoV6aKwi6AImgYqARvYQNLFKJ62Fokd_AOq0l6MLRfDjQmFCqRGiuRJ3ud5sqdhheLEYjYv1VuxRG3hIckl-OeiN5WiEKoPg8EILjPpKtJqGIMmLCFUx7-qk1DN2sA4QyMWEjW8Yqk04Bc0jLosrLrcDELLcZtMmonp4KOOPe3Y801gky27fiSzhkl2g2BchcAJSmWA-7fWYsv7nT7ew4IMVCS9yosjoBIs6cL_CLrTXipk_-fWd2oN6V8qo32VdKdydbgKrg5QSb9VrrN9j7Pd8bWxg1uLhfN39n9rFjHPVii4H4xmK5Izu6SKchb7JUf9nLNcbjyHzqr7lSxYbLWjiLmao6VE4EJjxeI5lsZ_JS6s0rdh0tqBi1iN8kmpjtl8AoEp1-g)
+
 En primer lugar se le pedirá al usuario asignar valor a cada una de las variables (a, b y c) que serán almacenadas como flotantes. 
 [![Insertando-valores.png](https://i.postimg.cc/QCjswYK5/Insertando-valores.png)](https://postimg.cc/34fPDBBJ)
 
