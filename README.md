@@ -41,10 +41,10 @@ else:
 Se pide que ingrese un número entero.
 ![Ingresar un numero entero](https://user-images.githubusercontent.com/124607325/225150478-5549a790-0748-44ee-b7fb-10a0c7f51071.png)
 
-El número ingresado se almacena como un entero en la variable n
+El número ingresado se almacena como un entero en la variable n.
 ![Tercer punto Codigo](https://user-images.githubusercontent.com/124607325/225164326-03c2d08d-aece-4dd3-8168-f97dd510c11e.png)
 
-Si el número n es impar,  se determinará usando n % 2 != 0, que devuelve verdadero si el resto de la división de n entre 2  es cero. e imprime que el número ingresado no es par
+Si el número n es impar,  se determinará usando n % 2 != 0, que devuelve verdadero si el resto de la división de n entre 2  es cero, e imprime que el número ingresado no es par.
 ![RESULTADO NUMERO NO PAR](https://user-images.githubusercontent.com/124607325/225151673-45464d1a-d59e-40a8-8303-e387ea1061a5.png)
 
 Si el resultado de la expresión anterior es falso, se imprime un mensaje que indica que el número es par. Y finaliza el programa
@@ -53,15 +53,15 @@ Si el resultado de la expresión anterior es falso, se imprime un mensaje que in
 # Cuarto punto # 
 4. Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 
-4.1. Lo primero que haremos sera pedirle al usuario que ingrese ods números reales los cuales serán guardados en las variables "x" y "y".
+4.1. Lo primero que haremos será pedirle al usuario que ingrese dos números reales los cuáles serán guardados en las variables "x" y "y".
 
 ![image](https://user-images.githubusercontent.com/124721286/225158538-56d34329-febd-4d5c-8921-2e02b1b2bbdf.png)
 
-4.2.  Para saber si el primer numero es múltimplo del segundo, lo que debemos hacrer es comprobar si el residuo de dividir el primero por el segundo es igual a cero.
+4.2.  Para saber si el primer número es múltimplo del segundo, lo que debemos hacer es comprobar si el residuo de dividir el primero por el segundo es igual a cero.
 
 ![image](https://user-images.githubusercontent.com/124721286/225160077-f51bc1c0-7cbb-49c3-acc2-cf9aab3c7830.png)
 
-4.3.  Si lo anterior sucede, podremos decir que el primero número ingresado es múltiplo del segundo.
+4.3.  Si lo anterior sucede, podremos decir que el primer número ingresado es múltiplo del segundo.
 
 ![image](https://user-images.githubusercontent.com/124721286/225160193-4b5f14e0-bb89-403d-9795-4896bacc88b7.png)
 
@@ -133,7 +133,7 @@ else:
 6.5. Si la letra es una consonante, se imprime un mensaje indicando que la entrada es una consonante.
 ![CONSONANTE](https://user-images.githubusercontent.com/124607325/225183103-66da80c5-6a2e-48aa-94c7-d37b856b8abc.png)
 
-6.6. Si la letra no es una consonante ni una vocal , se imprime un mensaje indicando que la entrada no es una letra. y el programa finaliza.
+6.6. Si la letra no es una consonante ni una vocal , se imprime un mensaje indicando que la entrada no es una letra, y el programa finaliza.
 ![No es una letra](https://user-images.githubusercontent.com/124607325/225183124-3a3a0ea6-1e55-4567-b09c-8573a823431e.png)
 
 # Séptimo punto #
@@ -147,11 +147,11 @@ else:
    - La potencia del mayor número elevado al menor número
    - La raíz cúbica del menor número
    
-7.1. Lo primero que haremos sera pedirle al usuario que digite cinco números reales los cuales guardaremos en las variables "a", "b", "c", "d" y "e".
+7.1. Lo primero que haremos será pedirle al usuario que digite cinco números reales los cuales guardaremos en las variables "a", "b", "c", "d" y "e".
    
 ![image](https://user-images.githubusercontent.com/124721286/225161047-0634ea4a-0fef-42ad-9182-2ef81503515f.png)
 
-7.2. Debido a que gran parte de los items solicitados requieren de que los números ingresados sean ordenados, procederemos a realizar esta acción. Lo primero que haremos será determinar cual de los números ingresados es el mayor de todos, esto lo conseguimos al realizar la comparación de uno por uno con los demás. Si se cumple la condición de que un número sea mayor que los otros, entonces le asignaremos ese número a la variable "mayor".
+7.2. Debido a que gran parte de los items solicitados requieren de que los números ingresados sean ordenados, procederemos a realizar esta acción. Lo primero que haremos será determinar cuál de los números ingresados es el mayor de todos, esto lo conseguimos al realizar la comparación de uno por uno con los demás. Si se cumple la condición de que un número sea mayor que los otros, entonces le asignaremos ese número a la variable "mayor".
 
 ![image](https://user-images.githubusercontent.com/124721286/225161397-a9aebde4-0125-43d4-ad8e-d53c4d63bd98.png)
 
@@ -163,7 +163,7 @@ else:
 
 ![image](https://user-images.githubusercontent.com/124721286/225161554-275c5b0b-2994-4102-8575-2094694873bb.png)
 
-7.3. Una vez definido cual es el mayor, procederemos a determinar cual de los números ingresados es el que le sigue en orden descendente al mayor. Lo anterior lo lograremos si empezamos a comparar los números que no corresponden a mayor con los demás y lo guardaremos en la variable "medio3". Por ejemplo: si determinamos que el número mayor es "a" lo que haremos para determinar "medio3" será comparar "b", "c", "d" y "e" de tal forma que el que sea mayor entre estos se le asignará la variable "medio3". Sin embargo, no podemos olvidar que posiblemente "a" no sea el número mayor, por lo que es candidato a ser "medio3" por lo tanto debemos incluirlo en los casos donde no es el mayor. (Las siguientes imagenes corresponden al ejemplo de cuando a es el mayor, ya que se reptie en los demas casos solo que esta vez obviando a sus respectivos mayores)
+7.3. Una vez definido cuál es el mayor, procederemos a determinar cuál de los números ingresados es el que le sigue en orden descendente al mayor. Lo anterior lo lograremos si empezamos a comparar los números que no corresponden a mayor con los demás y lo guardaremos en la variable "medio3". Por ejemplo: si determinamos que el número mayor es "a" lo que haremos para determinar "medio3" será comparar "b", "c", "d" y "e" de tal forma que el que sea mayor entre estos se le asignará la variable "medio3". Sin embargo, no podemos olvidar que posiblemente "a" no sea el número mayor, por lo que es candidato a ser "medio3" por lo tanto debemos incluirlo en los casos donde no es el mayor. (Las siguientes imagenes corresponden al ejemplo de cuando a es el mayor, ya que se repite en los demas casos solo que esta vez obviando a sus respectivos mayores)
 
 ![image](https://user-images.githubusercontent.com/124721286/225163188-906dd8b7-f023-4899-9d9c-d6565aaa9055.png)
 
@@ -181,13 +181,13 @@ else:
 
 ![image](https://user-images.githubusercontent.com/124721286/225163573-3e5f4d0b-8531-4d2c-900b-20446ecab777.png)
 
-7.5. Ahora, lo que debemos hacer es determinar el siguiente número descendente y el menor, estos los guardaremos en las variables "medio1" y "menor" correspondientemente. Para esto, debemos comprarar los dos últimos números que nos faltan (olvidando a "mayor", "medio3" y "medio2") y determinar cual es el número mayor entre estos. (Las siguientes imagenes corresponden a cuando "c" es "medio2", ya que este procedimiento se repite para los demas casos).
+7.5. Ahora, lo que debemos hacer es determinar el siguiente número descendente y el menor, estos los guardaremos en las variables "medio1" y "menor" correspondientemente. Para esto, debemos comprarar los dos últimos números que nos faltan (olvidando a "mayor", "medio3" y "medio2") y determinar cuál es el número mayor entre estos. (Las siguientes imagenes corresponden a cuando "c" es "medio2", ya que este procedimiento se repite para los demas casos).
 
 ![image](https://user-images.githubusercontent.com/124721286/225163946-f91fc767-12ec-40ce-8423-bf7dd3659e19.png)
 
 7.6. Los pasos 3, 4 y 5 deben repetirse para los distintos casos posibles.
 
-7.7. Una vez teniendo ordenados los números, procedemos a solucionar los items que nos estan solicitando, en este caso el promedio. Para esto, lo único que debemos hacer es realizar la suma de los números ingresados y el resultado dividirlo entre cinco. El resultado de toda la operación lo guardaremos en la variable "promedio". Luego de haber realizado el cálculo le mostraremos al usuario el resultado.
+7.7. Una vez ordenados los números, procedemos a solucionar los items que nos están solicitando, en este caso el promedio. Para esto, lo único que debemos hacer es realizar la suma de los números ingresados y el resultado dividirlo entre cinco. El resultado de toda la operación lo guardaremos en la variable "promedio". Luego de haber realizado el cálculo le mostraremos al usuario el resultado.
 
 ![image](https://user-images.githubusercontent.com/124721286/225164682-9614a439-f5a0-4724-b059-306277df5c27.png)
 
@@ -195,7 +195,7 @@ else:
 
 ![image](https://user-images.githubusercontent.com/124721286/225164905-59f3da54-abb5-420b-81d5-f347d48cca92.png)
 
-7.9. En el siguiente item nos piden calcular el promedio multiplicativo; Para esto, lo que debemos hacer es realizar la multiplicación de todos los números intgrasados y lo obtenido, elevarlo a la 1/5. El resultado lo guardaremos en la variable "pmult". Una vez hecho esto, le mostraremos al usuario el resultado.
+7.9. En el siguiente item nos piden calcular el promedio multiplicativo; para esto, lo que debemos hacer es realizar la multiplicación de todos los números ingresados y lo obtenido, elevarlo a la 1/5. El resultado lo guardaremos en la variable "pmult". Una vez hecho esto, le mostraremos al usuario el resultado.
 
 ![image](https://user-images.githubusercontent.com/124721286/225165273-8e3a53f8-2156-485f-a5d5-2abdce60ae88.png)
 
@@ -207,11 +207,11 @@ else:
 
 ![image](https://user-images.githubusercontent.com/124721286/225166099-b2f77a39-fb9b-4ce0-8846-130286ba4132.png)
 
-7.12. El penúltimo item nos pide que elevemos el mayor número al menor número, para esto, simplemente usamos el simbolo de potencia en python, El resultado de esta operación lo guardaremos en la variable pot, y una vez hecho el cálculo mostraremos el resultado en un mensaje.
+7.12. El penúltimo item nos pide que elevemos el mayor número al menor número, para esto, simplemente usamos el simbolo de potencia en python, El resultado de esta operación lo guardaremos en la variable "pot", y una vez hecho el cálculo mostraremos el resultado en un mensaje.
 
 ![image](https://user-images.githubusercontent.com/124721286/225166432-8cfd9cee-76fa-42a4-9157-60a35a6856c6.png)
 
-7.13. Por último, debemos calcular la raiz cúbica del menor número, asi que, usando el simbolo de potencia en python, elevaremos el menor número a la 1/3. Cuando tengamos el resultado, lo guardaremos en la variable raiz y le mostraremos el resultado al usuario.
+7.13. Por último, debemos calcular la raíz cúbica del menor número, así que, usando el símbolo de potencia en python, elevaremos el menor número a la 1/3. Cuando tengamos el resultado, lo guardaremos en la variable "raíz" y le mostraremos el resultado al usuario.
 
 ![image](https://user-images.githubusercontent.com/124721286/225166727-13248533-2643-4990-9b1c-2edc041d4ea5.png)
 
@@ -336,7 +336,7 @@ else:
 
 ![image](https://user-images.githubusercontent.com/124721286/225168303-e92e9fd8-3140-41b7-bdfd-2ddadf06f15d.png)
       
-10.2. Seguido de esto calcularemos el tiempo que le tomaria a la luz resrorres esa distancia. Esto lo haremos dividiendo la distancia "x" entre la velocidad de la luz en metros sobre segundo (299.792.458 m/s). El resultado lo guardaremos en la variable "tluz".
+10.2. Seguido de esto calcularemos el tiempo que le tomaría a la luz recorrer esa distancia. Esto lo haremos dividiendo la distancia "x" entre la velocidad de la luz en metros sobre segundo (299.792.458 m/s). El resultado lo guardaremos en la variable "tluz".
 
 ![image](https://user-images.githubusercontent.com/124721286/225168534-92943f2d-8de4-4cac-b351-5ffafea2b058.png)
 
@@ -344,7 +344,7 @@ else:
 
 ![image](https://user-images.githubusercontent.com/124721286/225168993-971fb60e-60d4-4153-9416-f9e189e0dd52.png)
 
-10.4. Para el tiempo que le tomaria al vehiculo comercial mas caro, repetiremos el proceso de los pasos anterios sol que esta vez usando la velocidad correspondiente en metros sobre segundo (141.111 m(/s). El resultado lo guardaremos en la variable "tvehiculo".
+10.4. Para el tiempo que le tomaría al vehículo comercial más caro, repetiremos el proceso de los pasos anterios solo que esta vez usando la velocidad correspondiente en metros sobre segundo (141.111 m(/s). El resultado lo guardaremos en la variable "tvehiculo".
 
 ![image](https://user-images.githubusercontent.com/124721286/225169520-c05d1611-16b5-4024-8da9-5a2f58c5b91f.png)
 
