@@ -9,7 +9,7 @@ Se realizan las correspondientes comparaciones a partir de los valores insertado
 
 Código completo:
 
-´´´
+```
 #Programa para calcular el mayor de tres números reales
 
 a: float = input("inserte valor de a")
@@ -22,7 +22,7 @@ elif b>a>c or b>c>a:
     print("El mayor número es " + str(b))
 else:
     print("El mayor número es " + str(c))
-´´´
+```
 
 # Quinto punto #
 5. Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
@@ -32,7 +32,7 @@ Igualmente el programa inicia pidiéndole al usuario asignar valor a las variabl
 
 Codigo completo:
 
-´´´
+```
 # Programa que lee tres números reales y determina si la suma de los dos primeros es mayor, menor o igual que el tercer número.
 
 numero1: float
@@ -48,7 +48,7 @@ elif numero1+numero2 > numero3:
     print("La suma de los dos primeros números es mayor que el tercero")
 else:
     print("La suma de los dos primeros números es igual que el tercero")
-´´´
+```
 
 # Octavo punto #
 8. Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
@@ -63,11 +63,12 @@ Ejemplo: Para una frecuencia de 67e17:
 Para una frecuencia de 589e8:
 [![microondas-589e8.png](https://i.postimg.cc/s27nW6Bk/microondas-589e8.png)](https://postimg.cc/Y42fKxzR)
 
-Los valores de frecuencia asignados a las diferentes fueron tomados de [la vieja confiable](https://es.wikipedia.org/wiki/Espectro_electromagn%C3%A9tico "la vieja confiable") 
+Los valores de frecuencia asignados a los diferentes espectros electromagnéticos fueron tomados de [la vieja confiable](https://es.wikipedia.org/wiki/Espectro_electromagn%C3%A9tico "la vieja confiable") 
 
-[![Espectro.png](https://i.postimg.cc/4xrLmk3v/Espectro.png)](https://postimg.cc/YvzfsPYj)
+[![Espectro-Tabloid.jpg](https://i.postimg.cc/m2cxgFfK/Espectro-Tabloid.jpg)](https://postimg.cc/crNkDCJc)
 
-´´´
+```
+
 # Programa al que se le ingresa la frecuencia de una onda en hz y como salida arroja en que parte del espectro electromagnético se encuentra.
 frecuencia: float
 frecuencia = float(input("Agregar el valor de la frecuencia en Hz, usar notación científica si es necesario: "))
@@ -98,4 +99,5 @@ elif frecuencia >= 30e3 and frecuencia < 300e3 :
 else:
     frecuencia >= 3 and  frecuencia < 30e3
     print("Onda de radio de muy baja frecuencia")
-´´´
+
+```
