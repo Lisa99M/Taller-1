@@ -5,6 +5,8 @@
 1. Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).
 [![2023-03-15-15.png](https://i.postimg.cc/jjJ1dgxn/2023-03-15-15.png)](https://postimg.cc/hJcs207K)
 
+[![2023-03-15-22.png](https://i.postimg.cc/Rh7L82Dr/2023-03-15-22.png)](https://postimg.cc/XBv5B1Wx)
+
 # Segundo punto #
 2. Realice un programa que lea tres números reales y determine cuál es el mayor.
 
